@@ -1,0 +1,7 @@
+{
+  "name": "sharePlay",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
