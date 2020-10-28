@@ -1,0 +1,19 @@
+<ion-grid>
+  <ion-row class="ion-justify-content-center">
+    <ion-col size-xs="6" *ngFor="let song of songs">
+      <ion-card (click)="playSong()" class="card">
+        <ion-card-header>
+          <ion-card-subtitle>{{song.name}}</ion-card-subtitle>
+          <ion-card-title>{{song.artist}}</ion-card-title>
+        </ion-card-header>
+      
+        <ion-card-content>
+          Keep close to Nature's heart... and break clear away, once in awhile,
+          and climb a mountain or spend a week in the woods. Wash your spirit clean.
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+  
